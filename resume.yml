@@ -1,78 +1,234 @@
 ```yaml
 name: Darrin Snider
-title: Cloud Engineer / Analyst / Writer of Systems, Both Fictional and Unfortunately Real
+
+title: >
+  Cloud Engineer, Technical Business Analyst, Systems Translator,
+  and Long-Term Survivor of Enterprise Technology Fashion Cycles
+
+tagline: >
+  I turn vague organizational anxiety into working systems, documented processes,
+  cloud governance, and occasionally meetings that should have been emails.
 
 summary: >
-  Veteran cloud engineer and former programmer/business analyst with 35 years
-  of experience translating vague organizational panic into working systems,
-  documentation, governance, and occasionally actual progress.
+  Technology professional with 30+ years of experience spanning software
+  development, infrastructure, networking, business analysis, project leadership,
+  cloud operations, and compliance-driven Azure Government environments.
 
-skills:
+  Career arc includes surviving Visual Basic, client/server apps, AS/400s,
+  Cisco/Nortel networks, data centers, SharePoint, ERP migrations, SEO,
+  mobile apps, AI-adjacent Q&A systems, PMOs, DevOps, Terraform, Kubernetes,
+  CMMC, FedRAMP, NIST, CUI, and the eternal sentence:
+  "We just need someone technical in the room."
+
+current_focus:
+  role: Cloud Operations Engineer
+  domain: Azure Government
+  responsibilities:
+    - operate multiple Azure GovCloud environments
+    - design and maintain secure landing zones
+    - support compliance-aligned cloud operations
+    - develop Terraform modules and deployment pipelines
+    - modernize cloud-based applications without setting the building on fire
+    - translate architecture diagrams into things implementers can actually build
+
+cloud_environments_supported:
+  - virtual reality design platforms
+  - MBSE workloads
+  - high-performance computing
+  - online development zones
+  - secure collaboration environments
+  - government-regulated workloads
+  - applications whose documentation was apparently written during a hostage situation
+
+technical_stack:
   cloud:
-    - Azure for Government
+    - Azure Government
+    - Azure GovCloud
     - Azure Policy
-    - Process automation and documentation
-    - Terraform, IaC
-    - FinOps and cost management
-    - FedRAMP, NIST, CMMC-aligned governance
+    - Azure DevOps
+    - Terraform
+    - Kubernetes
+    - CycleCloud
+    - Power Platform
+    - M365 GCC High
+    - SharePoint
+    - Teams
+
+  compliance:
+    - FedRAMP
+    - NIST
+    - CMMC
+    - CUI
+    - PCI Level One
+    - audit readiness
+    - security documentation
+    - evidence gathering
+    - explaining why "we trust Bob" is not a control
+
+  infrastructure:
+    - data center modernization
+    - network operations
+    - server administration
+    - Cisco environments
+    - firewall policy refresh
+    - legacy system decommissioning
+    - hybrid infrastructure
+    - "one-man IT department" survival skills
+
+  software_and_systems:
+    - business application design
+    - custom CRM systems
+    - ERP migration
+    - SharePoint workflows
+    - web applications
+    - mobile applications
+    - data conversion
+    - reporting tools
+    - integration between systems that were never meant to speak but now must attend couples therapy
+
   analysis:
     - requirements discovery
-    - process design
-    - post-mortems
-    - stakeholder translation
-  creative:
-    - long-form speculative fiction and cyberculture commentary
-    - podcasting, live streaming, and event management  
-    - music curation
-    - strategic sarcasm
+    - business process modeling
+    - cost-benefit analysis
+    - stakeholder management
+    - product vision
+    - scope definition
+    - technical specifications
+    - test-driven and behavior-driven requirements
+    - translating "make it intuitive" into actual acceptance criteria
 
-experience:
-  - role: Cloud Engineer
-    focus:
-      - Azure Government platform governance
-      - tagging policy enforcement
-      - conditional access documentation
-      - secure cloud standards
-      - government compliance
-    achievements:
-      - created repeatable operational guidance
-      - improved visibility into resource compliance
-      - created and documented operational processes
-      - 
-      - served as connective tissue between technical and non-technical teams
-  - role: Business Analyst
-    focus:
-      - Azure Government platform governance
-      - tagging policy enforcement
-      - conditional access documentation
-      - secure cloud standards
-      - government compliance
-    achievements:
-      - created repeatable operational guidance
-      - improved visibility into resource compliance
-      - created and documented operational processes
-      - 
-      - served as connective tissue between technical and non-technical teams
-  - role: Software Developer
-    focus:
-      - translate boardroom visions into functional products
-      - lead local and off-shore development teams through unreasonable expectations and dealines
-      - 
-      - secure cloud standards
-      - government compliance
-    achievements:
-      - created repeatable operational guidance
-      - improved visibility into resource compliance
-      - created and documented operational processes
-      - 
-      - served as connective tissue between technical and non-technical teams
+career_phases:
+  - phase: Software Engineer
+    era: "1992-1998"
+    description: >
+      Built multimedia training software, internal business applications,
+      data warehouse tools, and custom systems back when shipping software
+      meant handing someone physical media and praying.
+
+  - phase: Systems and Network Analyst
+    era: "1998-2001"
+    description: >
+      Administered networks, supported users, managed data systems,
+      built internal applications, and functioned as the entire IT department,
+      because apparently sleep was considered optional.
+
+  - phase: Developer / Network Engineer / Consultant
+    era: "2001-2006"
+    description: >
+      Built business systems, registration platforms, accounting customizations,
+      time tracking tools, and sales automation systems for clients with
+      extremely real needs and extremely imaginary budgets.
+
+  - phase: Technical Manager / Sales Engineer
+    era: "2001-2011"
+    description: >
+      Led teams, designed systems, managed infrastructure, handled technical
+      sales, built client solutions, and learned that every demo is just theatre
+      with more acronyms.
+
+  - phase: Project Manager / Technical Business Analyst
+    era: "2011-2017"
+    description: >
+      Wrote requirements, designed workflows, supported PMOs, specified systems,
+      managed stakeholder expectations, and repeatedly discovered that the
+      phrase "simple change" is where hope goes to die.
+
+  - phase: Cloud Operations Engineer
+    era: "2018-present"
+    description: >
+      Operates and modernizes Azure Government environments supporting secure,
+      regulated, engineering-heavy workloads with Terraform, DevOps practices,
+      cloud governance, and compliance expectations that arrive carrying a clipboard.
+
+selected_accomplishments:
+  - modernized cloud-based applications for FedRAMP, NIST, CMMC, and CUI requirements
+  - designed and maintained Azure Government landing zones
+  - developed Terraform modules and pipelines for repeatable cloud provisioning
+  - supported high-performance computing and secure engineering workloads
+  - helped refactor operational processes around regulated cloud standards
+  - contributed to multi-million-dollar data center modernization efforts
+  - supported corporate data center upgrades, switch consolidation, POP migration, and firewall policy refresh
+  - migrated and scrubbed ERP data into Microsoft Dynamics
+  - helped implement project tracking integrations across SAP, Workday, Primavera, Empower, and related systems
+  - helped create PMO processes for a growing healthcare administrator
+  - designed requirements for online commission portals and technical business systems
+  - contributed to Indiana voter registration and electronic poll book initiatives
+  - led PCI Level One compliance remediation for infrastructure and internal processes
+  - designed custom business systems before "digital transformation" became a branded consulting perfume
+
+professional_superpowers:
+  - understanding both the architecture diagram and the person who has to implement it
+  - finding the undocumented business rule hiding under three layers of "that's just how we do it"
+  - translating between executives, engineers, auditors, users, vendors, and the guy who knows where the old server is
+  - recognizing when a process is real and when it is just a Word document in a trench coat
+  - making systems easier to operate after everyone else has finished making them impressive
+  - spotting risk before it becomes a weekend
 
 operating_principles:
   - make the implicit explicit
-  - automate the boring parts
-  - document the decisions, not just the steps
-  - never trust a process that only works when Steve remembers how it works
+  - automate what should not require heroics
+  - document the decision, not just the button clicks
+  - build systems that survive employee turnover
+  - respect compliance, but never confuse paperwork with security
+  - never trust architecture that only works in PowerPoint
+  - if the process depends on one person remembering the ritual, the process does not exist
 
-status: open_to_interesting_conversations
-format: protest_yaml
+communication_style:
+  default: clear
+  alternate_modes:
+    - executive summary
+    - technical detail
+    - audit-friendly
+    - developer-facing
+    - "please stop pretending this is not complicated"
+
+workplace_alignment:
+  good_fit:
+    - vague, shifting boardroom visions and creative freedom to implement them
+    - good coffee
+    - human beings in the room, not on the screen
+    - infrastructure modernization
+    - technical business analysis
+    - cross-functional translation
+    - practical documentation
+    - teams that value people who can see the whole board
+
+  bad_fit:
+    - performative Agile
+    - architecture without implementation feedback
+    - compliance theater
+    - meetings about meetings
+    - pretending legacy systems are not load-bearing
+    - organizations allergic to documentation until the outage
+
+creative_background:
+  writing:
+    - long-form speculative fiction and cyberculture commentary
+    - systems-driven worldbuilding
+    - political and technological consequence modeling
+  music:
+    - musician
+    - podcaster, live presenter, pirate radio captain
+    - progressive rock and jazz fusion enthusiast
+  relevance: >
+    Years of creative work sharpened the same skills enterprise technology
+    requires: pattern recognition, narrative structure, audience awareness,
+    systems thinking, and the ability to notice when Act 3 is going to collapse
+    because someone lied in Act 1.
+
+current_status: selectively_available
+
+preferred_next_chapter:
+  - strategic architect
+  - technical analyst
+  - operations strategist
+  - Azure Government platform strategy
+  - role involving translation between business intent and technical execution
+  - work where 30+ years of context is treated as an asset instead of a suspiciously large number
+
+format: recruiter_confusion_engine
+
+schema_validation:
+  expected_result: valid
+  emotional_result: complicated
 ```
