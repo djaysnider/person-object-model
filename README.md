@@ -1,9 +1,10 @@
-This repository contains my resume.
+# Legacy System with Documentation
 
-Most resumes are Word documents, PDFs, or LinkedIn profiles.
+Unlike most enterprise systems of similar age,
+this one is fully documented, actively maintained,
+cloud compatible, and unlikely to be retired soon.
 
-Mine is YAML because ... 
-
-1) After 35 years in technology, I trust source control more than recruiters
-2) I hate YAML (even the name feels like some hipster whining about being called a hipster)
-3) I love ironic performance art
+Current version: 57.0
+Backward compatibility: Excellent
+Technical debt: Managed
+Support status: Extended lifecycle
