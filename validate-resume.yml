@@ -1,0 +1,53 @@
+name: Validate Resume
+
+on:
+  push:
+    paths:
+      - "resume.yml"
+      - "resume.schema.json"
+      - ".github/workflows/validate-resume.yml"
+  pull_request:
+    paths:
+      - "resume.yml"
+      - "resume.schema.json"
+      - ".github/workflows/validate-resume.yml"
+  workflow_dispatch:
+
+jobs:
+  validate-resume:
+    name: Validate resume.yml against schema
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install validators
+        run: |
+          npm install -g ajv-cli ajv-formats yaml
+
+      - name: Convert YAML resume to JSON
+        run: |
+          node - <<'NODE'
+          const fs = require("fs");
+          const yaml = require("yaml");
+
+          const resumeYaml = fs.readFileSync("resume.yml", "utf8");
+          const resumeJson = yaml.parse(resumeYaml);
+
+          fs.writeFileSync("resume.json", JSON.stringify(resumeJson, null, 2));
+          NODE
+
+      - name: Validate resume.json against resume.schema.json
+        run: |
+          ajv validate             --spec=draft2020             -c ajv-formats             -s resume.schema.json             -d resume.json
+
+      - name: Confirm resume survived contact with reality
+        run: |
+          echo "resume.yml is valid."
+          echo "Recruiters remain unconvinced, but the schema is satisfied."

@@ -1,0 +1,78 @@
+```yaml
+name: Darrin Snider
+title: Cloud Engineer / Analyst / Writer of Systems, Both Fictional and Unfortunately Real
+
+summary: >
+  Veteran cloud engineer and former programmer/business analyst with 35 years
+  of experience translating vague organizational panic into working systems,
+  documentation, governance, and occasionally actual progress.
+
+skills:
+  cloud:
+    - Azure for Government
+    - Azure Policy
+    - Process automation and documentation
+    - Terraform, IaC
+    - FinOps and cost management
+    - FedRAMP, NIST, CMMC-aligned governance
+  analysis:
+    - requirements discovery
+    - process design
+    - post-mortems
+    - stakeholder translation
+  creative:
+    - long-form speculative fiction and cyberculture commentary
+    - podcasting, live streaming, and event management  
+    - music curation
+    - strategic sarcasm
+
+experience:
+  - role: Cloud Engineer
+    focus:
+      - Azure Government platform governance
+      - tagging policy enforcement
+      - conditional access documentation
+      - secure cloud standards
+      - government compliance
+    achievements:
+      - created repeatable operational guidance
+      - improved visibility into resource compliance
+      - created and documented operational processes
+      - 
+      - served as connective tissue between technical and non-technical teams
+  - role: Business Analyst
+    focus:
+      - Azure Government platform governance
+      - tagging policy enforcement
+      - conditional access documentation
+      - secure cloud standards
+      - government compliance
+    achievements:
+      - created repeatable operational guidance
+      - improved visibility into resource compliance
+      - created and documented operational processes
+      - 
+      - served as connective tissue between technical and non-technical teams
+  - role: Software Developer
+    focus:
+      - translate boardroom visions into functional products
+      - lead local and off-shore development teams through unreasonable expectations and dealines
+      - 
+      - secure cloud standards
+      - government compliance
+    achievements:
+      - created repeatable operational guidance
+      - improved visibility into resource compliance
+      - created and documented operational processes
+      - 
+      - served as connective tissue between technical and non-technical teams
+
+operating_principles:
+  - make the implicit explicit
+  - automate the boring parts
+  - document the decisions, not just the steps
+  - never trust a process that only works when Steve remembers how it works
+
+status: open_to_interesting_conversations
+format: protest_yaml
+```

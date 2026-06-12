@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recruiter Confusion Engine Resume",
+  "type": "object",
+  "required": [
+    "name",
+    "title",
+    "summary",
+    "technical_stack",
+    "career_phases",
+    "professional_superpowers",
+    "operating_principles",
+    "format"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "current_focus": {
+      "type": "object"
+    },
+    "cloud_environments_supported": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "technical_stack": {
+      "type": "object"
+    },
+    "career_phases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "phase",
+          "era",
+          "description"
+        ]
+      }
+    },
+    "selected_accomplishments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "professional_superpowers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "operating_principles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "communication_style": {
+      "type": "object"
+    },
+    "workplace_alignment": {
+      "type": "object"
+    },
+    "creative_background": {
+      "type": "object"
+    },
+    "current_status": {
+      "type": "string"
+    },
+    "preferred_next_chapter": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "format": {
+      "enum": [
+        "recruiter_confusion_engine",
+        "protest_yaml",
+        "canonical_yaml"
+      ]
+    },
+    "schema_validation": {
+      "type": "object"
+    }
+  }
+}
