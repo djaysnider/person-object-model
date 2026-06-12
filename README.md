@@ -6,10 +6,11 @@ Most resumes are Word documents.
 Some are PDFs.
 A few are websites.
 
-Mine is YAML because after 30 years in technology, I trust source control more than recruiters.
+Mine is YAML because after 30 years in technology, 
+I trust source control more than recruiters.
 
 Unlike most enterprise systems of similar age,
-this one is fully documented, actively maintained,
+I am fully documented, actively maintained,
 cloud compatible, and unlikely to be retired soon.
 
 Current version: 57.0
