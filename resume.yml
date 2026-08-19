@@ -1,5 +1,31 @@
 ```yaml
+about: This repository contains my resume in YAML.
+  The YAML is the source of truth.
+  Markdown exists for carbon-based lifeforms.
+  LinkedIn exists because apparently it has to.
+
 name: Darrin Snider
+
+location: Indianapolis, Indiana metropolitan area
+
+career_path: More than 35 years of experience across software development, infrastructure, networking, business analysis, project leadership.  Currently working in the area of cloud operations, compliance programs, and Azure Government environments.
+
+personal_slogan: >
+  I turn vague organizational anxiety into working systems, documented processes, cloud governance, and occasionally meetings that should have been emails. If it helps, I'm also been described as "technically handy enough that he's fixed just about anything around here at some point, except maybe for some broken formica in the lobby."
+
+core_themes: 
+  - Translate business goals into technical reality
+  - Translate technical reality back into business language
+  - Modernize legacy environments without breaking production
+  - Build governance that survives audits
+  - Build documentation that survives employee turnover
+  - Notice problems before they become weekend emergencies
+
+career_arc: Software Engineer → Systems Analyst → Server Support Analyst → Network Administrator → Full-Stack Consultant → One-Man IT Department → Entreprenur/Software Development Manager → Contract Programmer → Business Analyst/Project Manager → Technical Services Manager → Technical Business Analyst → Contract Business Analyst/Project Manager → Cloud Operations Engineer ... 
+see also: Systems Translator, Technical Storyteller, and Long-Term Survivor of Enterprise Technology Fashion Cycles.
+note:  These are technically all the same job -- figuring out what people actually need and building a system to do it.
+favorite_job: Whichever one I'm not doing at the moment.
+currently: Technical Business Analyst
 
 title: >
   Cloud Engineer, Technical Business Analyst, Systems Translator,
@@ -21,24 +47,24 @@ summary: >
   "We just need someone technical in the room."
 
 current_focus:
-  role: Cloud Operations Engineer
-  domain: Azure Government
-  responsibilities:
-    - operate multiple Azure GovCloud environments
-    - design and maintain secure landing zones
-    - support compliance-aligned cloud operations
-    - develop Terraform modules and deployment pipelines
-    - modernize cloud-based applications without setting the building on fire
-    - translate architecture diagrams into things implementers can actually build
-
-cloud_environments_supported:
-  - virtual reality design platforms
-  - MBSE workloads
-  - high-performance computing
-  - online development zones
-  - secure collaboration environments
-  - government-regulated workloads
-  - applications whose documentation was apparently written during a hostage situation
+  - FinOps and Cost Optimization
+  - Cloud Governance (CMMC)
+  - Compliance Automation
+  - Technical Strategy
+  - Infrastructure Modernization Without Setting the Building on Fire
+  - Daily Operation of Multiple Azure Government Tenants
+  - Supporting Platforms I Can Identify But Don't Understand, Such As:
+    - Virtual Reality Design Platforms
+    - MBSE workloads
+    - High-Performance Computing (HPC)
+    - Applications whose documentation was apparently written during a hostage situation
+  - SharePoint Development and Administration
+  - Government-Regulated Workloads
+  - Terraform Development / IaC / Translating Architecture Diagrams into Things Work in Deployment Piplines
+  - Science Fiction
+  - Progressive Rock
+  - Vaporwave
+  - Explaining why PowerPoint is not an architecture framework and should be banned
 
 technical_stack:
   cloud:
