@@ -1,7 +1,7 @@
 
 # Frequenstly Asked Questions
 
-## Submit your query to *darrin-dot-snider-at-pmo-elite-dot-com*
+## Submit your query to *darrin[dot]snider[at]pmo-elite[dot]com*
 
 ### **Do you really expect a recruiter/hiring manager to read all of this unorganized mumbo-jumbo?!**
 
