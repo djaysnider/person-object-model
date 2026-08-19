@@ -1,21 +1,24 @@
-function EvaluateOpportunity(job)
-{
-    score = 0;
+# Ideal Job Evaluation Process
 
-    if(job.containsUndefinedProblems)
-        score += 100;
+    function EvaluateOpportunity(job)
+    {
+        score = 0;
 
-    if(job.manager.valuesCuriosity)
-        score += 50;
+        if(job.containsUndefinedProblems)
+            score += 100;
 
-    if(job.requiresLearningNewTechnology)
-        score += 40;
+        if(job.manager.valuesCuriosity)
+            score += 50;
 
-    if(job.expectsPoliticalNavigation > TechnicalProblemSolving)
-        score -= 80;
+        if(job.requiresLearningNewTechnology)
+            score += 40;
 
-    if(job.description == "We've never done this before.")
-        return "Let's talk.";
+        if(job.expectsPoliticalNavigation > TechnicalProblemSolving)
+            score -= 80;
 
-    return score;
-}
+        if(job.description == "We've never done this before.")
+            return "Let's talk.";
+
+        return score;
+    }
+    
