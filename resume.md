@@ -248,16 +248,13 @@ Years of creative work sharpened the same skills enterprise technology requires:
 
 ## Validation
 
-    ```bash
-    ajv validate -s resume.schema.json -d resume.yml
-    ```
+    [bash]
+    *ajv validate -s resume.schema.json -d resume.yml*
 
 Expected result:
 
-    ```text
     resume.yml valid
 
 Emotional result:
 
-    ```text
-    person-object complicated
+    person.obj complicated
