@@ -3,7 +3,7 @@
 ![status](https://img.shields.io/badge/resume-valid-brightgreen)
 ![format](https://img.shields.io/badge/format-YAML-blue)
 ![recruiter](https://img.shields.io/badge/recruiter_confusion-engineering-orange)
-format: recruiter_confusion_engine
+![humor](https://img.shields.io/badge/humor-self-indulging-red)
 
 ## About
 
