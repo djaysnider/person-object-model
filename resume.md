@@ -248,7 +248,7 @@ meant handing someone physical media and praying.
 ## Validation
 
     [bash]
-    *ajv validate -s resume.schema.json -d resume.yml*
+    ajv validate -s resume.schema.json -d resume.yml
 
 Expected result:
 
