@@ -231,13 +231,9 @@ meant handing someone physical media and praying.
         - Podcaster, live presenter, pirate radio captain
         - Progressive rock and jazz fusion enthusiast
     
-    Relevance:
+    Relevance:  Years of creative work sharpened the same skills enterprise technology requires: pattern recognition, narrative structure, audience awareness, systems thinking, and the ability to notice when Act 3 is going to collapse because someone lied in Act 1.
 
-Years of creative work sharpened the same skills enterprise technology requires: pattern recognition, narrative structure, audience awareness,     systems thinking, and the ability to notice when Act 3 is going to collapse because someone lied in Act 1.
-
-## Current Status
-
-"selectively_available"
+    Current Status: "Selectively Available"
 
 ## Preferred Next Chapter
 
