@@ -2,16 +2,16 @@
 about: This repository contains my resume in YAML.
   The YAML is the source of truth.
   Markdown exists for carbon-based lifeforms.
-  LinkedIn exists because apparently it has to.
+  LinkedIn exists because apparently it has to, and because scammers need a place to roam unchecked.
 
 name: Darrin Snider
 
 location: Indianapolis, Indiana metropolitan area
 
-career_path: More than 35 years of experience across software development, infrastructure, networking, business analysis, project leadership.  Currently working in the area of cloud operations, compliance programs, and Azure Government environments.
+career_path: More than 35 years of experience across software development, infrastructure, networking, business analysis, and project leadership.  Currently working in the area of cloud operations, compliance programs, and Azure Government environments.
 
 personal_slogan: >
-  I turn vague organizational anxiety into working systems, documented processes, cloud governance, and occasionally meetings that should have been emails. If it helps, I'm also been described as "technically handy enough that he's fixed just about anything around here at some point, except maybe for some broken formica in the lobby."
+  I turn vague organizational anxiety into working systems, documented processes, cloud governance, and occasionally meetings that should have been emails. If it helps, I've also been described as "technically handy enough that he's fixed just about anything around here at some point, except maybe for some broken formica in the lobby."
 
 core_themes: 
   - Translate business goals into technical reality
@@ -60,7 +60,7 @@ current_focus:
     - Applications whose documentation was apparently written during a hostage situation
   - SharePoint Development and Administration
   - Government-Regulated Workloads
-  - Terraform Development / IaC / Translating Architecture Diagrams into Things Work in Deployment Piplines
+  - Terraform Development / IaC / Translating Architecture Diagrams into Things That Work in Deployment Pipelines
   - Science Fiction
   - Progressive Rock
   - Vaporwave
@@ -220,12 +220,13 @@ workplace_alignment:
     - teams that value people who can see the whole board
 
   bad_fit:
-    - performative Agile
-    - architecture without implementation feedback
-    - compliance theater
-    - meetings about meetings
-    - pretending legacy systems are not load-bearing
-    - organizations allergic to documentation until the outage
+    - Performative Agile
+    - Billable time, minimum utilization quotas (Especially when combined with previous)
+    - Architecture without implementation feedback
+    - Compliance theater
+    - Meetings about meetings
+    - Pretending legacy systems are not load-bearing
+    - Organizations allergic to documentation until the outage
 
 creative_background:
   writing:
@@ -245,12 +246,10 @@ creative_background:
 current_status: selectively_available
 
 preferred_next_chapter:
-  - strategic architect
-  - technical analyst
-  - operations strategist
-  - Azure Government platform strategy
-  - role involving translation between business intent and technical execution
-  - work where 30+ years of context is treated as an asset instead of a suspiciously large number
+  - Technical analyst
+  - Product evangelist
+  - Role involving translation (technical storytelling) between business intent and technical execution
+  - Work where 35+ years of context is treated as an asset instead of a suspiciously large number
 
 format: recruiter_confusion_engine
 

@@ -11,7 +11,7 @@ This repository contains my resume in YAML.
 
 The YAML is the source of truth.
 Markdown exists for carbon-based lifeforms.
-LinkedIn exists because apparently it has to.
+LinkedIn exists because apparently it has to, and because scammers need a place to roam unchecked.
 
 ## Professional Summary
 
@@ -21,9 +21,9 @@ LinkedIn exists because apparently it has to.
 
 **Career Path:**
 
-More than 35 years of experience across software development, infrastructure, networking, business analysis, project leadership.  Currently working in the area of cloud operations, compliance programs, and Azure Government environments.
+More than 35 years of experience across software development, infrastructure, networking, business analysis, and project leadership.  Currently working in the area of cloud operations, compliance programs, and Azure Government environments.
 
-**Personal Slogan:** I turn vague organizational anxiety into working systems, documented processes, cloud governance, and occasionally meetings that should have been emails. If it helps, I'm also been described as "technically handy enough that he's fixed just about anything around here at some point, except maybe for some broken formica in the lobby."
+**Personal Slogan:** I turn vague organizational anxiety into working systems, documented processes, cloud governance, and occasionally meetings that should have been emails. If it helps, I've also been described as "technically handy enough that he's fixed just about anything around here at some point, except maybe for some broken formica in the lobby."
 
 ## Core Themes
 
@@ -42,7 +42,7 @@ Software Engineer → Systems Analyst → Server Support Analyst → Network Adm
 
 **Favorite Job:** Whichever one I'm not doing at the moment. (Currently: Technical Business Analyst)
 
-## Current Areas of Interest
+## Current Areas of Focus
 
 - FinOps and Cost Optimization
 - Cloud Governance (CMMC)
@@ -57,7 +57,7 @@ Software Engineer → Systems Analyst → Server Support Analyst → Network Adm
   - Applications whose documentation was apparently written during a hostage situation
 - SharePoint Development and Administration
 - Government-Regulated Workloads
-- Terraform Development / IaC / Translating Architecture Diagrams into Things Work in Deployment Piplines
+- Terraform Development / IaC / Translating Architecture Diagrams into Things That Work in Deployment Pipelines
 - Science Fiction
 - Progressive Rock
 - Vaporwave
@@ -116,15 +116,15 @@ Software Engineer → Systems Analyst → Server Support Analyst → Network Adm
 
 ### Analysis
 
-    - requirements discovery
-    - business process modeling
-    - cost-benefit analysis
-    - stakeholder management
-    - product vision
-    - scope definition
-    - technical specifications
-    - test-driven and behavior-driven requirements
-    - translating "make it intuitive" into actual acceptance criteria
+    - Requirements discovery
+    - Business process modeling
+    - Cost-benefit analysis
+    - Stakeholder management
+    - Product vision
+    - Scope definition
+    - Technical specifications
+    - Test-driven and behavior-driven requirements
+    - Translating "make it intuitive" into actual acceptance criteria
 
 ## Career Phases
 
@@ -135,7 +135,7 @@ meant handing someone physical media and praying.
 
 ### Systems and Network Analyst
 
-"1998-2001" -- Administered networks, supported users, managed data systems, built internal applications, and functioned as the entire IT department,because apparently sleep was considered optional.
+"1998-2001" -- Administered networks, supported users, managed data systems, built internal applications, and functioned as the entire IT department, because apparently sleep was considered optional.
 
 ### Developer / Network Engineer / Consultant
 
@@ -213,7 +213,7 @@ meant handing someone physical media and praying.
 
     Bad Fit:
     - Performative Agile
-    - Billable time quotas (Especially when combined with previouis)
+    - Billable time, minimum utilization quotas (Especially when combined with previous)
     - Architecture without implementation feedback
     - Compliance theater
     - Meetings about meetings
@@ -242,7 +242,7 @@ meant handing someone physical media and praying.
 
 - Technical analyst
 - Product evangelist
-- Role involving translation (tecnical storytelling) between business intent and technical execution
+- Role involving translation (technical storytelling) between business intent and technical execution
 - Work where 35+ years of context is treated as an asset instead of a suspiciously large number
 
 ## Validation

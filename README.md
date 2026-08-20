@@ -6,9 +6,9 @@ Most resumes are Word documents.
 Some are PDFs.
 A few are websites.
 
-Mine is currently YAML because after 30 years in technology, I trust source control more than recruiters.
+Mine is currently YAML because after 35 years in technology, I trust source control more than recruiters.
 
-If there is one thing I've learned in nearly 40 years of professional life, however, it's that the more thorougly you explain something, the deeper your taxonomy, the more commitment you put in to the fine details of a project (or joke), basically **the more useful something is**, the less attention people will give it. In fact, it will effectivelly become invisible, the stuff of legend, the documentation for the operating system.
+If there is one thing I've learned from a decade of business analaysis, however, it's that the more thorougly you explain something, the deeper your taxonomy, the more commitment you put in to the fine details of a project (or joke), basically **the more useful something is**, the less attention people will give it. In fact, it will effectivelly become invisible, the stuff of legend, the documentation for the operating system.
 
 So, naturally, my YAML resume slowly became a narrative accounting of my technical, creative, and personal self, including links to my professional and creative output, likes and dislikes, ways of thinking, beliefs I hold, dreams I have, and everything else that **should** be more relevant to a recruiter than the fact that I have a GenTran certification on the wall in my office that I earned back in 1998.
 
