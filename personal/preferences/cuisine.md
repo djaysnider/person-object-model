@@ -1,98 +1,212 @@
 # Cusisine Preferences
 
-    Define DataSet Food
+    public class CuisinePreferences : PersonalPreferenceProfile
+    {
+        public PreferenceSet Preferred { get; } =
         {
-            Subset Preferred
+            Indian:
             {
-                Class Indian
-                {
-                    Vindaloo
-                    Tandori
-                    Tikka Masala
-                    Palak Paneer
-                    Garlic Naan
-                    Pakora
-                }
-                Class Chinese (Americanized)
-                {
-                    General Tso's Chicken
-                    Bourbon Chicken
-                    Mongolain Pork
-                    Szechuan Beef
-                    Kung Pao Shrimp
-                    Crab Rangoon
-                    Hot Sour Soup
-                    Happy Family
-                }
-                Class Sushi
-                {
-                    Philly Roll
-                    Eel Nigiri
-                    Rainbow Roll
-                    Fishers Roll
-                    Dragon Roll
-                    Spicy Spider Roll
-                }
+                Vindaloo,
+                Tandoori,
+                TikkaMasala,
+                PalakPaneer,
+                GarlicNaan,
+                Pakora
+            },
+
+            Chinese.Americanized:
+            {
+                GeneralTsosChicken,
+                BourbonChicken,
+                MongolianPork,
+                SzechuanBeef,
+                KungPaoShrimp,
+                CrabRangoon,
+                HotAndSourSoup,
+                HappyFamily
+            },
+
+            Sushi:
+            {
+                PhillyRoll,
+                EelNigiri,
+                RainbowRoll,
+                FishersRoll,
+                DragonRoll,
+                SpicySpiderRoll
+            }
+        };
+
+
+        public PreferenceSet Approved { get; } =
+        {
+            Standbys:
+            {
+                BarbecuedPorkSteaks,
+                ChicagoHotDog,
+                PorkTenderloin,
+                NewYorkStrip,
             }
 
-            Subset Approved
+            Mexican:
             {
-                Class Mexican
+                ChorizoTorta,
+                HuevosRancheros,
+                FajitasCozumel,
+                SeafoodEnchilada,
+                Tostaguac,
+                Chalupa,
+                ChileRelleno
+            }
+        };
+
+
+        public BeveragePreferences Beverages { get; } = new()
+        {
+            Alcoholic =
+            {
+                Beer:
                 {
-                    Chioriso Torta
-                    Juevos Rancheros
-                    Fajiatas Cozumel
-                    Seafood Enchelada
-                    Tostaguac
-                    Chalupa
-                    Chille Relleno
-                }
+                    BuschLight,
+                    BudLight,
+                    BelhavenScottishAle,
+                    KonaBigWave,
+                    SunKingPachanga,
+                    ThreeFloydsAlphaKing,
+                    Modelo,
+                    CraftLagers
+                },
 
-                Class Upleasant-Side-Effects
+                Wine:
                 {
-                    Raw Oysters
-                    Anything with Tomato after 8PM
+                    Merlot,
+                    Malbec,
+                    Cabernet,
+                    PinotNoir,
+                    LambruscoReggiano
                 }
+            },
+
+            NonAlcoholic =
+            {
+                IcedTea(Sweetness.Medium),
+                TimHortonsCoffee,
+                PistachioLatte,
+                DietCoke,
+                DietDrPepper
             }
 
-            Subset Beverages.Alcoholic
+            Untested =
             {
-
-            
-            }
-
-            Subset Beverages.Nonalcoholic
-            {
-
-            }
-
-            Subset Preparation.Mastered
-            {
-
-            }
-
-            Subset Untested
-            {
-                Moussaka
-                Bouillabaisse
-                Borscht
-                šaltibarščiai
-                Cepelinai
-                Gravlax
+                Moussaka,
+                Bouillabaisse,
+                Borscht,
+                Šaltibarščiai,
+                Cepelinai,
+                Gravlax,
                 Kjötsúpa
+            },
+
+            Failed =
+            {
+                TakoSashimi
             }
 
-            Subset Judged Over-Subjectively
-            {
-                Butter cake
-                Coconut Cream Pie
-                Creme Horns
-                Lasagna
-                Potato Salad
-            }
+        };
 
-            Subset Failed
+
+        public PreparationSkill Cooking { get; } = new()
+        {
+            Mastered =
             {
-                Tako Sashimi
+                Lasagna,
+                SalmonWellington,
+                FrenchBread,
+                StuffedMushrooms,
+                EnchiladasCancun,
+                Jambalaya
             }
         }
+
+        Public IReadOnlySet<Food> JudgedOverSubjectively { get; } =
+        {
+            StLouisButterCake,
+            CoconutCreamPie,
+            CremeHorns,
+            Lasagna,
+            PotatoSalad
+        };
+
+
+        public IReadOnlySet<ConsumptionWarning> KnownSideEffects { get; } =
+        {
+            new(RawOysters, Risk.Unpleasant),
+            new(Tomato, Risk.Unpleasant)
+            {
+                Condition = TimeOfDay > 20:00
+            }
+        };
+
+       Instance Pizza:
+        {
+            Preference = Standby,
+            Preparation = AboveAverage,
+            JudgmentBias = High,
+            PreferredStyle = {"Chicago","TavernStyle","Sicilian"},
+            PreferredSource = {"Gino's","Georgio's","Ale Emporium","Curry Pizza","Monicals","Donatos","Chicago Pizza"}
+            AnchovyRequired = true,
+            BlackOliveRequired = preferable,
+            MushroomRequired = preferable,
+            MeatRequired = any,
+            ArtisanPizza = someexceptions,
+            PineappleAsIngredient = tolerated
+        }
+
+       Instance Lasagna:
+        {
+            Preference = Preferred,
+            Preparation = Mastered,
+            JudgmentBias = Extreme,
+            RicottaRequired = true,
+            CottageCheeseSubstitution = Heresy
+        }
+
+        Instance TakoSashimi:
+        {
+            Preference = Failed,
+            Opinion = Inedible,
+            Attempts = 2,
+            RetryPolicy = Never,
+            PostMortemAvailable = true
+        }
+
+        enum Preference
+        {
+            Optimal,
+            Preferred,
+            Approved,
+            Tolerated,
+            Situational,
+            Untested,
+            Pessimal,
+            AbsolutelyNot
+        }
+
+        enum Confidence
+        {
+            Tentative,
+            Experienced,
+            StronglyHeld,
+            IrrationallyCertain,
+            WillArgueOverDinner
+        }
+
+        enum RetryPolicy
+        {
+            Immediately,
+            Eventually,
+            IfSomeoneElseIsPaying,
+            UnderDuress,
+            Never
+        }
+    }
