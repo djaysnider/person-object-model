@@ -58,7 +58,54 @@
                 Chalupa,
                 ChileRelleno
             }
+
+            Instance Pizza:
+            {
+                Preference = Standby,
+                Preparation = AboveAverage,
+                JudgmentBias = High,
+                PreferredStyle = {"Chicago","TavernStyle","Sicilian"},
+                PreferredSource = {"Gino's","Georgio's","Ale Emporium","Curry Pizza","Monicals","Donatos","Chicago Pizza"}
+                AnchovyRequired = true,
+                BlackOliveRequired = preferable,
+                MushroomRequired = preferable,
+                MeatRequired = any,
+                ArtisanPizza = someexceptions,
+                PineappleAsIngredient = tolerated
+            }
+
+            Instance Lasagna:
+            {
+                Preference = Preferred,
+                Preparation = Mastered,
+                JudgmentBias = Extreme,
+                RicottaRequired = true,
+                CottageCheeseSubstitution = Heresy
+            }
         };
+
+        public PreferenceSet Untested { get; } =
+        {
+            Moussaka,
+            Bouillabaisse,
+            Borscht,
+            Šaltibarščiai,
+            Cepelinai,
+            Gravlax,
+            Kjötsúpa
+        },
+
+        public PreferenceSet Failed { get; }=
+        {
+            Instance TakoSashimi:
+            {
+                Preference = Failed,
+                Opinion = Inedible,
+                Attempts = 2,
+                RetryPolicy = Never,
+                PostMortemAvailable = true
+            }
+        }
 
 
         public BeveragePreferences Beverages { get; } = new()
@@ -95,23 +142,6 @@
                 DietCoke,
                 DietDrPepper
             }
-
-            Untested =
-            {
-                Moussaka,
-                Bouillabaisse,
-                Borscht,
-                Šaltibarščiai,
-                Cepelinai,
-                Gravlax,
-                Kjötsúpa
-            },
-
-            Failed =
-            {
-                TakoSashimi
-            }
-
         };
 
 
@@ -146,39 +176,6 @@
                 Condition = TimeOfDay > 20:00
             }
         };
-
-       Instance Pizza:
-        {
-            Preference = Standby,
-            Preparation = AboveAverage,
-            JudgmentBias = High,
-            PreferredStyle = {"Chicago","TavernStyle","Sicilian"},
-            PreferredSource = {"Gino's","Georgio's","Ale Emporium","Curry Pizza","Monicals","Donatos","Chicago Pizza"}
-            AnchovyRequired = true,
-            BlackOliveRequired = preferable,
-            MushroomRequired = preferable,
-            MeatRequired = any,
-            ArtisanPizza = someexceptions,
-            PineappleAsIngredient = tolerated
-        }
-
-       Instance Lasagna:
-        {
-            Preference = Preferred,
-            Preparation = Mastered,
-            JudgmentBias = Extreme,
-            RicottaRequired = true,
-            CottageCheeseSubstitution = Heresy
-        }
-
-        Instance TakoSashimi:
-        {
-            Preference = Failed,
-            Opinion = Inedible,
-            Attempts = 2,
-            RetryPolicy = Never,
-            PostMortemAvailable = true
-        }
 
         enum Preference
         {
