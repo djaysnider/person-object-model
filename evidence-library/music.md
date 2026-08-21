@@ -188,8 +188,7 @@
                 Type: Roast
                 Year: 2016
                 Role: Target
-                Link: [Indy In-Tune 10th Anniversary Road of Darrin Snider](https://soundcloud.com/indyintune/the-10th-anniversary-roast-of)
+                Link: [Indy In-Tune 10th Anniversary Road of Darrin Snider](<https://soundcloud.com/indyintune/the-10th-anniversary-roast-of>)
             }
         }
     }
-    
