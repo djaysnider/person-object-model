@@ -12,7 +12,7 @@
                 Link: [Listen on Spotify](https://open.spotify.com/album/4YTtRoef5zkYDLuwAaohqe?si=V3ic_4XNT_KiVkDigAWEIg)
             }
 
-            Album = (The Unreleased Album)
+            Album = (The Unreleased Album):
             {
                 Artist: Tim Spainhower and the Night Social
                 Year: 2015
@@ -92,7 +92,7 @@
                 }
             }
 
-            Video = Vain Addiction (Rehearsal)
+            Video = Vain Addiction (Rehearsal):
             {
                 Artist: The Mess
                 Year: 2016
@@ -100,7 +100,7 @@
                 Link: [The Mess - Vain Addiction](https://youtu.be/JR6PIVKRLP0?si=sToTLQ3A_BT3Izkt)
             }
 
-            Video = All I Need, All I Want (Rehearsal)
+            Video = All I Need, All I Want (Rehearsal):
             {
                 Artist: The Mess
                 Year: 2016
@@ -108,7 +108,7 @@
                 Link: [The Mess - All I Need, All I Want](https://youtu.be/czAktWGoQ2w?si=aUwePYhqz3u5uPLQ)
             }
 
-            Video = St. Leo
+            Video = St. Leo:
             {
                 Artist: Jeff Byrd
                 Year: 2018
@@ -116,7 +116,7 @@
                 Link: [Jeff Byrd - St. Leo](https://youtu.be/fItSXHnNxpk?si=jW5eYosp3to2qQAN)
             }
 
-            Video = The Eternal Warrior
+            Video = The Eternal Warrior:
             {
                 Artist: Darrin Snider
                 Film: Fight or Fly
@@ -128,7 +128,7 @@
 
         public Recording.Live { get; } =
         {
-            Video = Sad Songs Say So Much / Saturday Night's Alright
+            Video = Sad Songs Say So Much / Saturday Night's Alright:
             {
                 Artist: Jeff Byrd and the Words
                 Event: Tonic Ball 2018, Elton John Stage
@@ -137,7 +137,7 @@
                 Link: [Jeff Byrd and the Words - Tonic Ball 2018](https://youtu.be/4192FuFT_Bo?si=HvoqFZSMfqeTqf0D)
             }
 
-            Video = To Amaze me (Live)
+            Video = To Amaze me (Live):
             {
                 Artist: The Mess
                 Location: Birdy's Live
@@ -146,7 +146,7 @@
                 Link: [The Mess - To Amaze Me](https://youtu.be/DTJeaD4NOlU?si=Gte9oRMUBQCZV35m)
             }
 
-            Video = Hard to Be Forgotten (Live)
+            Video = Hard to Be Forgotten (Live):
             {
                 Artist: The Mess
                 Location: Birdy's Live
@@ -155,7 +155,7 @@
                 Link: [The Mess - Hard to Be Forggten](https://youtu.be/ZvUsruw42xM?si=uZi_pbpuwpZRhr05)
             }
 
-            Video = Ready for Love (Live)
+            Video = Ready for Love (Live):
             {
                 Artist: The Fabulous Huckleberries
                 Location: Harley's Ten West
@@ -188,7 +188,7 @@
                 Type: Roast
                 Year: 2016
                 Role: Target
-                Link: [Indy In-Tune 10th Anniversary Road of Darrin Snider](<https://soundcloud.com/indyintune/the-10th-anniversary-roast-of>)
+                Link: [Indy In-Tune 10th Anniversary Road of Darrin Snider](https://soundcloud.com/indyintune/the-10th-anniversary-roast-of)
             }
         }
     }
