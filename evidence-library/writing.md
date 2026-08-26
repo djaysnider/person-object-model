@@ -135,6 +135,8 @@
                     Status: Outline
                 }
             }
+        }
+            
         public short-form { get; } =
         {
             [Error retrieving bad poetry archive ...]
