@@ -39,7 +39,7 @@ THEN
     RETURN INTERESTING
 ```
 
-Please do not open an issue asking the maintainer to "think outside the box" if your organization maintains a fourteen-step approval process for modifying the box.
+Please do not open an issue asking the maintainer to "think outside the box" if your organization maintains a fourteen-step approval process via independent change management board for modifying the box.
 
 ## Romantic Contributions
 

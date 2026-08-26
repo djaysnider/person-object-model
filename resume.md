@@ -214,6 +214,7 @@ meant handing someone physical media and praying.
     Bad Fit:
     - Performative Agile
     - Billable time, minimum utilization quotas (Especially when combined with previous)
+    - Change management boards
     - Architecture without implementation feedback
     - Compliance theater
     - Meetings about meetings
