@@ -95,7 +95,7 @@
             Kjötsúpa
         },
 
-        public PreferenceSet Failed { get; }=
+        public PreferenceSet Failure.Disliked { get; }=
         {
             Instance TakoSashimi:
             {
