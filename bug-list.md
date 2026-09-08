@@ -12,7 +12,7 @@
         5. Constant restless leg syndrome
         6. Difficulty remaining focused on mundane tasks for more an a few minutes at a time
     2. Secondary Behaviors
-        1. Often maintains multiple projects, hyperfocusing on some/ignoring others for long stretches of time, never completing any
+        1. Often maintains multiple projects, hyperfocusing on some/ignoring others for long stretches of time, never completing any.  Tendencies indicate that unless specific completion deadlines/rewards are in place, subject will just continue to attain new projects and incorporate them into an ever-increasing list of hobbies.
             1. Running a pirate radio station
             2. Writing music, working on an album
             3. Writing 12 novels simultaneously
